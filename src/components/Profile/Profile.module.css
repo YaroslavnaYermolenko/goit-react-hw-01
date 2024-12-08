@@ -1,0 +1,59 @@
+.profile {
+  height: 640px;
+  width: 590px;
+  border: 3px solid #646464;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 20px auto;
+}
+.userInfo {
+}
+.userName {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  line-height: 2.5;
+  font-weight: bold;
+  color: #000;
+}
+.userTag,
+.userLocation {
+  font-size: 38px;
+  line-height: 1.5;
+  color: #8b8b8b;
+}
+.userLocation {
+  margin-bottom: 30px;
+}
+.userImage {
+  display: block;
+  margin: 24px auto 0;
+  background-color: #2a2a2a;
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  margin-top: auto;
+}
+.statsItem {
+  font-family: "Helvetica Neue", sans-serif;
+  width: 196px;
+  height: 150px;
+  background-color: #d3d3d3;
+  border-color: #868686;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  border: 1px solid gray;
+  border-left: none;
+  border-bottom: none;
+}
+.statsItem:last-child {
+  border-right: none;
+}
