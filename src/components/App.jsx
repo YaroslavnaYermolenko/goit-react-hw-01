@@ -1,5 +1,9 @@
 import Profile from "./Profile/Profile";
 import userData from "../data/userData.json";
+import FriendsList from "./FriendsList/FriendsList";
+import friends from "../data/friends.json";
+import TransactionHistory from "./TransactionHistory/TransactionHistory";
+import transactions from "../data/transactions.json";
 import "./App";
 
 const App = () => {
@@ -12,6 +16,8 @@ const App = () => {
         image={userData.avatar}
         stats={userData.stats}
       />
+      <FriendsList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };

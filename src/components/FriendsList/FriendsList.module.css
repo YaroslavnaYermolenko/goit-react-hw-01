@@ -1,0 +1,23 @@
+.friendsList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap:20px;
+}
+.friendItem {
+  display: grid;
+  justify-items: center;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #000;
+}
+.friendName {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
