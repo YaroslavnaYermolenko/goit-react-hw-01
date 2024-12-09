@@ -1,8 +1,9 @@
 .friendsList {
   list-style: none;
   display: flex;
-  justify-content: center;
-  gap:20px;
+  gap: 20px;
+  width: 600px;
+  margin: 20px auto;
 }
 .friendItem {
   display: grid;
@@ -10,6 +11,7 @@
   padding: 15px;
   border-radius: 10px;
   border: 1px solid #000;
+  width: calc((100% - 80px) / 5);
 }
 .friendName {
   font-size: 20px;
