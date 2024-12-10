@@ -1,6 +1,6 @@
-import css from "./FriendsList.module.css";
 import PropTypes from "prop-types";
 import clsx from "clsx";
+import css from "./FriendsListItem.module.css";
 
 export default function FriendsListItem({ avatar, name, isOnline }) {
   return (
